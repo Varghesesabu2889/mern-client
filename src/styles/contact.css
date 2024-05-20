@@ -1,0 +1,38 @@
+/* contact.css */
+
+/* Style for the list group */
+.list-group {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Style for list group items */
+.list-group-item {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the icon point */
+.point {
+  color: blue; /* Adjust color as needed */
+}
+
+/* Additional styles for the footer */
+.footer {
+  background-color: #f9f9f9; /* Adjust background color */
+  color: #333; /* Adjust text color */
+  padding: 40px 0; /* Adjust padding as needed */
+}
+
+/* Styles for different screen sizes */
+@media (max-width: 767px) {
+  /* Adjust styles for smaller screens */
+  .footer {
+    padding: 20px 0; /* Reduce padding for smaller screens */
+  }
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif; /* Set preferred font family */
+}
